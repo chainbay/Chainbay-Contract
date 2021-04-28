@@ -98,15 +98,4 @@ contract Third is Ownable {
         }
     }
 
-    function initRouters() internal{
-        routers[BTCB] = WBNB;
-        routers[DOT] = WBNB;
-        routers[LINK] = WBNB;
-        routers[BUNNY] = WBNB;
-        routers[UNI] = WBNB;
-        routers[ETH] = WBNB;
-        routers[USDT] = WBNB;
-        routers[USDC] = BUSD;
-    }
-
 }
